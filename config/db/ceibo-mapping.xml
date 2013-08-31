@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<orm-mapping>
+
+    <entity name="todo" class="demoCompany\magictodo\domain\Todo" table="todo" >
+        <property name="Id" column="id"/>
+        <property name="Description" column="description"/>
+        <property name="Priority" column="priority"/>
+    </entity>
+    
+                
+</orm-mapping>
