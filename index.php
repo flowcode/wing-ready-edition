@@ -31,7 +31,7 @@ $app->set("view", array(
 
 /** data access */
 $dataSource = new PDOMySqlDataSource();
-$dataSource->setDbDsn("mysql:host=localhost;dbname=wing-prueba");
+$dataSource->setDbDsn("mysql:host=localhost;dbname=wing-cms");
 $dataSource->setDbUser("root");
 $dataSource->setDbPass("root");
 
